@@ -1,3 +1,4 @@
+#!/bin/bash
 ################################################################################
 #
 # Name:         100_i3_Tweaks.sh
@@ -31,3 +32,15 @@ sudo apt-get install -y lxappearance
 # X11 session. You can configure nemo not to do this, however this is a little
 # simpler.
 sudo apt-get install -y thunar
+
+
+echo
+echo
+echo "________________________________________________________________________"
+echo
+echo
+echo "  UI Tweaks Installed!"
+echo
+echo "________________________________________________________________________"
+
+sleep 2
