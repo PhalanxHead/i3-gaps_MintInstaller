@@ -1,6 +1,7 @@
 # PhalanxHead/i3-gaps_MintInstaller
 ### Installs i3-gaps on a Linux Mint 18.1 installation with some minor config tweaks.
 
+Installer based heavily off Erik Dubois' i3 Installer (https://github.com/erikdubois/LinuxMint18i3), but is a little more modular and doesn't rebind your keyboard.
 Config Tweaks are all based off Code Cast's "i3wm: Configuration (2/3)" and "i3wm: How to "Rice" Your Desktop (3/3)" videos, found here:
 
 https://youtu.be/8-S0cWnLBKg \\
