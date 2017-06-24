@@ -19,7 +19,7 @@
 
 # Install the core elements!
 sudo apt-get install -y i3 i3lock i3staus i3-wm
-sudo apt-get install dmenu
+sudo apt-get install -y dmenu
 
 echo
 echo

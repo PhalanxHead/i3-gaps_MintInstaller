@@ -17,21 +17,25 @@ If you want to copy my entire "basic i3 setup," run the file as it is.
 Unlike Erik's installer, this has no major key rebindings or shortcuts changes. It's completely non-obtrusive apart from the colour and theme changes, and the default program changes.
 
 #### Instructions
-1. Clone or download this repo to a new directory anywhere on your system.
+1. Upgrade your Linux Mint install (run `sudo apt-get upgrade`) if you want to.
 
-1.1 If you want to clone it and you don't have Git installed, run the following code:
+2. Install any applications that you like/want
+
+3. Clone or download this repo to a new directory anywhere on your system.
+
+3.1 If you want to clone it and you don't have Git installed, run the following code:
 ```
 sudo apt-get install git
 ```
-1.2 Then run the following:
+3.2 Then run the following:
 ```
 git clone https://github.com/PhalanxHead/i3-gaps_MintInstaller.git ~/.i3/i3-gaps_MintInstaller.git
 cd ~/.i3/i3-gaps_MintInstaller/
 ```
 
-2. Edit the installer as required. See the Configuration Section below for more details, or read the "AutoInstaller.sh" file.
+4. Edit the installer as required. See the Configuration Section below for more details, or read the "AutoInstaller.sh" file.
 
-3. Run the following:
+5. Run the following:
 ```
 ./AutoInstaller.sh
 ```

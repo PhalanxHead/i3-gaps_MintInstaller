@@ -40,6 +40,9 @@ sudo apt-get install -y libev-dev libxcb-cursor-dev libxcb-xinerama0-dev
 sudo apt-get install -y libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev
 sudo apt-get install -y libxcb-xrm-dev
 
+# Curl is a command line download tool. (recommended)
+sudo apt-get install -y curl
+
 
 echo
 echo
