@@ -18,11 +18,11 @@ Unlike Erik's installer, this has no major key rebindings or shortcuts changes. 
 #### Instructions
 1. Clone or download this repo to a new directory anywhere on your system.
 
-..1.1 If you want to clone it and you don't have Git installed, run the following code:
+..1. If you want to clone it and you don't have Git installed, run the following code:
 ```
 sudo apt-get install git
 ```
-..1.2 Then run the following:
+..1. Then run the following:
 ```
 git clone https://github.com/PhalanxHead/i3-gaps_MintInstaller.git ~/.i3/i3-gaps_MintInstaller.git
 cd ~/.i3/i3-gaps_MintInstaller/
