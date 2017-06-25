@@ -12,19 +12,16 @@
 #
 ################################################################################
 
-# Font Directory: Change this if you like your fonts elsewhere!
-$FontDir=$HOME/.fonts
-
 rm -rf /tmp/Fonts
 mkdir /tmp/Fonts
 cd /tmp/Fonts
 curl http://font.ubuntu.com/download/ubuntu-font-family-0.83.zip > /tmp/Fonts/Ubuntu.zip
 unzip ./Ubuntu.zip
-mv ./Ubuntu/*.ttf $FontDir
+mv ./Ubuntu/*.ttf $HOME/.fonts
 
 curl http://fontawesome.io/assets/font-awesome-4.7.0.zip > /tmp/Fonts/FontAwesome.zip
 unzip ./FontAwesome.zip
-mv ./FontAwesome/fonts/*.ttf $FontDir
+mv ./FontAwesome/fonts/*.ttf $HOME/.fonts
 
 sudo rm -rf /tmp/Fonts
 cd $HOME
