@@ -44,12 +44,10 @@ echo "exec compton -f" >> "$path/config"
 
 # Creates a Wallpapers folder in your pictures folder and copies
 # the supplied image (curtesy of Linux Mint) into the folder
-pushd .
 cd $HOME/Pictures/
 mkdir Wallpapers
-popd
 
-cp ../Wall.jpg $HOME/Pictures/Wallpapers/Wall.jpg
+sudo cp ~/.i3/i3-gaps_MintInstaller/Wall.jpg ~/Pictures/Wallpapers/Wall.jpg
 echo "exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/Wall.jpg" >> "$path/config"
 
 # Adds gaps to the i3 config, just to prove i3 gaps is working.
