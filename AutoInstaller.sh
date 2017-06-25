@@ -27,16 +27,16 @@ cd ../MyApps/
 sudo chmod +x 200_Install_Personal_Apps.sh
 
 cd ../MyConfigs/
-sudo chmod +x 300_Install_Personal_Configs_No_Shortcuts.sh 300_Install_Personal_Configs_Shortcuts.sh
+sudo chmod +x 300_Install_PersonalConfigs_No_Shortcuts.sh 300_Install_PersonalConfigs_Shortcuts.sh
 
 # Install the core!! (Required)
-cd ~/.i3/i3-gaps_MintInstaller/
+#cd ~/.i3/i3-gaps_MintInstaller/
 ./core/000_i3_plain.sh
 
-cd ~/.i3/i3-gaps_MintInstaller/
+#cd ~/.i3/i3-gaps_MintInstaller/
 ./core/010_i3-gaps_dependencies.sh
 
-cd ~/.i3/i3-gaps_MintInstaller/
+#cd ~/.i3/i3-gaps_MintInstaller/
 ./core/020_i3-gaps_install.sh
 
 # Install the UI Tweak Apps
@@ -44,7 +44,7 @@ cd ~/.i3/i3-gaps_MintInstaller/
 ./UItweakApps/100_i3_Tweaks.sh
 
 cd ~/.i3/i3-gaps_MintInstaller/
-./UItweakApps/110_i3_Tweaks_conf.sh
+sudo ./UItweakApps/110_i3_Tweaks_conf.sh
 
 cd ~/.i3/i3-gaps_MintInstaller/
 ./UItweakApps/120_Fonts_Install.sh

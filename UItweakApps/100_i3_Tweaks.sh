@@ -34,6 +34,7 @@ sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/
 sudo apt-get update && sudo apt-get install -y --allow-unauthenticated arc-theme
 sudo wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
 sudo apt-key add - < Release.key
+rm Release.key
 
 # Thunar is a GUI file browser. It's a little less nasty to use with i3 than
 # nemo, which is the Mint default, as it doesn't open a desktop over your 

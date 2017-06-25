@@ -16,9 +16,9 @@
 #
 ################################################################################
 
-cd ~/MyConfigs
+cd ./MyConfigs
 cp ./.gtkrc-2.0 ~/.gtkrc-2.0
-cp -rf ./.config_y/ ~/.config/
+cp -R -f -T ./.config_y ~/.config/
 
 cd ~/
 

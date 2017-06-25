@@ -14,12 +14,6 @@
 #
 ################################################################################
 
-# Install Opera Web Browser Unauth tag allows to bypass the command line complaints
-wget -O - http://deb.opera.com/archive.key | sudo apt-key add -
-sudo sh -c 'echo "deb http://deb.opera.com/opera-stable/ stable non-free" >> /etc/apt/sources.list.d/opera.list'
-sudo apt-get update
-sudo apt-get install -y --allow-unauthenticated opera
-
 # Install Grub Customiser - Customises the page for the Grub Bootloader
 sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 sudo apt-get update
@@ -28,7 +22,7 @@ sudo apt-get install -y --allow-unauthenticated grub-customizer
 # Install Vim - a Text Editor
 sudo apt-get install -y vim
 
-# Install Atom - a GUI Text Editor 
+# Install Atom - a GUI Text Editor
 sudo add-apt-repository ppa:webupd8team/atom
 sudo apt-get update
 sudo apt-get install -y --allow-unauthenticated atom
