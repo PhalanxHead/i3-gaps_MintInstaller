@@ -30,9 +30,9 @@ sudo apt-get install -y feh
 sudo apt-get install -y lxappearance
 
 # Installs the Arc GTK themes, which are used in my configs.
-sudo wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
 sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
-sudo apt-get update && sudo apt-get install -y arc-theme
+sudo apt-get update && sudo apt-get install -y --allow-unauthenticated arc-theme
+sudo wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
 sudo apt-key add - < Release.key
 
 # Thunar is a GUI file browser. It's a little less nasty to use with i3 than
