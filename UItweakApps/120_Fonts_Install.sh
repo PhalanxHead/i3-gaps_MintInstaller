@@ -19,12 +19,12 @@ rm -rf /tmp/Fonts
 mkdir /tmp/Fonts
 cd /tmp/Fonts
 curl http://font.ubuntu.com/download/ubuntu-font-family-0.83.zip > /tmp/Fonts/Ubuntu.zip
-unzip Ubuntu.zip
-mv Ubuntu/*.ttf $FontDir
+unzip ./Ubuntu.zip
+mv ./Ubuntu/*.ttf $FontDir
 
 curl http://fontawesome.io/assets/font-awesome-4.7.0.zip > /tmp/Fonts/FontAwesome.zip
-unzip FontAwesome.zip
-mv FontAwesome/fonts/*.ttf $FontDir
+unzip ./FontAwesome.zip
+mv ./FontAwesome/fonts/*.ttf $FontDir
 
 sudo rm -rf /tmp/Fonts
 cd $HOME

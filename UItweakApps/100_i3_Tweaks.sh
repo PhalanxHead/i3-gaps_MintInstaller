@@ -9,6 +9,8 @@
 # Purpose:      Installs UI Tweaking Apps
 #
 # Attribution:  Info on tweak apps from Code Cast's Youtube series (see README)
+#               Installing GTK theme from here:
+#               http://www.omgubuntu.co.uk/2016/06/install-latest-arc-gtk-theme-ubuntu-16-04
 #
 #   As always, read the code before you run it!
 #
@@ -23,9 +25,15 @@ sudo apt-get install -y compton
 sudo apt-get install -y feh
 
 # lxappearance is a GUI app that allows you to change the GTK themes and fonts
-# at will, it's quite easy to use. You'll have to configure this manually after
-# the installation as I haven't included the GTK configs.
+# at will, it's quite easy to use. You can configure this manually once the
+# install is done, though my GTK configs are included.
 sudo apt-get install -y lxappearance
+
+# Installs the Arc GTK themes, which are used in my configs.
+sudo wget http://download.opensuse.org/repositories/home:Horst3180/xUbuntu_16.04/Release.key
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/Horst3180/xUbuntu_16.04/ /' >> /etc/apt/sources.list.d/arc-theme.list"
+sudo apt-get update && sudo apt-get install -y arc-theme
+sudo apt-key add - < Release.key
 
 # Thunar is a GUI file browser. It's a little less nasty to use with i3 than
 # nemo, which is the Mint default, as it doesn't open a desktop over your 

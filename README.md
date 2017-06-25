@@ -55,4 +55,4 @@ Each section installs different elements of my personal i3 setup.
 4. The "MyConfigs" section just installs the bare elements of my configs, without my key rebindings. A version with key rebindings has been included but isn't installed by default because I assume someone is going to run this without reading everything and then get confused with some of my key commands, just like I did when I first tried one of these automatic installers.
 
 ## Attributions
-Obviously a bunch of this code comes from Erik Dubois' installer, notably in the "core" section. The included photo is a stock image from Linux Mint, and I'm assuming users will replace this almost immediately.
+Obviously a bunch of this code comes from Erik Dubois' installer, notably in the "core" section. The included photo is a stock image from Linux Mint, and I'm assuming users will replace this almost immediately. All other attribution can be found in-code if relevant.
