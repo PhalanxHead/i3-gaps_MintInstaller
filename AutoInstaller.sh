@@ -55,11 +55,11 @@ sudo ./MyApps/200_Install_Personal_Apps.sh
 
 # Install My Configs No Shortcuts!
 cd ~/.i3/i3-gaps_MintInstaller/
-sudo ./MyConfigs/300_Install_Personal_Configs_No_Shortcuts.sh
+sudo ./MyConfigs/300_Install_PersonalConfigs_No_Shortcuts.sh
 
 # Install My Configs with Shortcuts!
 #cd ~/.i3/i3-gaps_MintInstaller/
-#sudo ./MyConfigs/300_Install_Personal_Configs_Shortcuts.sh
+#sudo ./MyConfigs/300_Install_PersonalConfigs_Shortcuts.sh
 
 cd ~/.i3
 rm -rf ./i3-gaps_MintInstaller
