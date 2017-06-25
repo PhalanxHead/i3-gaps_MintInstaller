@@ -183,7 +183,7 @@ hide_edge_borders both
 gaps outer 15
 gaps inner 10
 
-exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/Walli.jpg
+exec_always --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/Wall.jpg
 for_window [class="Spotify"] move to workspace $ws10
 exec spotify
 exec $webbrowse
