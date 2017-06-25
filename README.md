@@ -29,7 +29,7 @@ sudo apt-get install git
 ```
 3.2 Then run the following:
 ```
-git clone https://github.com/PhalanxHead/i3-gaps_MintInstaller.git ~/.i3/i3-gaps_MintInstaller.git
+git clone https://github.com/PhalanxHead/i3-gaps_MintInstaller.git ~/.i3/i3-gaps_MintInstaller
 cd ~/.i3/i3-gaps_MintInstaller/
 ```
 
