@@ -30,7 +30,7 @@ cd ../MyConfigs/
 sudo chmod +x 300_Install_PersonalConfigs_No_Shortcuts.sh 300_Install_PersonalConfigs_Shortcuts.sh
 
 # Install the core!! (Required)
-#cd ~/.i3/i3-gaps_MintInstaller/
+cd ~/.i3/i3-gaps_MintInstaller/
 ./core/000_i3_plain.sh
 
 #cd ~/.i3/i3-gaps_MintInstaller/
